@@ -1,0 +1,94 @@
+body {
+	background: #c2c2c2;
+	padding: 20px 0;
+}
+.container {
+	height: calc(100vh - 40px);
+	width: 50%;
+	margin: auto;
+	position: relative;
+}
+.header-main {
+	background-color: #646464;
+	height: 90px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 20px;
+}
+.logo {
+	background-color: #c2c2c2;
+	height: 60%;
+	width: 18%;
+}
+.redes {
+	display: flex;
+	flex-direction: row;
+}
+.icono-red {
+	background-color: #c2c2c2;
+	border-radius: 20px;
+	height: 33px;
+	width: 33px;
+	margin-left: 10px;
+}
+.nav-main {
+	background-color: #c2c2c2;
+	height: 80px;
+	display: flex;
+}
+.nav-main ul {
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 100%;
+}
+.menu {
+	background-color: #808080;
+	width: 19.8%;
+	height: 40px;
+}
+.cards {
+	height: 160px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
+.card {
+	background-color: #808080;
+	height: 100%;
+	width: 33%;
+}
+.content {
+	display: flex;
+	flex-direction: row;
+	height: calc(100% - 430px);
+}
+.aside-left {
+	background-color: #808080;
+	width: 20%;
+}
+.article-main {
+	background-color: #646464;
+	width: 60%;
+}
+.aside-right {
+	background-color: #808080;
+	width: 20%;
+}
+.footer-main {
+	height: 60px;
+	width: 100%;
+	margin-top: 20px;
+}
+.footer-main-central {
+	background-color: #646464;
+	height: 60px;
+	width: 100%;
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+}

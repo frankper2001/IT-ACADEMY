@@ -1,0 +1,3 @@
+Cambios realizados en el fichero texto.txt desde master en local
+Cambios realizados en el fichero texto.txt desde la rama1 en local
+
