@@ -1,5 +1,5 @@
 body {
-	background: #ffffff;
+	background: #FFFFE0;
 	padding: 20px 0;
 }
 .container {
@@ -39,33 +39,21 @@ body {
 	flex-direction: row;
 }
 .menu ul li {
-	margin-right: 30px;
+	margin-right: 20px;
 }
-.menu ul li a {
-	opacity: 0.5;
-	font-size: 1em;
-}
-.menu ul li a i {
-	margin-right: 13px;
-}
-.menu ul li a:hover {
-	color: blue;
-	opacity: 1;
+.menu ul li i,
+span {
+	opacity: 0.45;
+	margin-right: 10px;
+	font-size: 1.1em;
 }
 #header3 {
-	width: auto;
+	width: 16%;
 	height: 100%;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
-	margin-right: 5%;
-}
-#header3 i {
 	opacity: 0.5;
-}
-#header3 i:hover {
-	color: blue;
-	opacity: 1;
 }
 .header-second {
 	background-color: rgba(0, 0, 0, 0.05);
