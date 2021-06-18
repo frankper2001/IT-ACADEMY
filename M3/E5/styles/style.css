@@ -188,8 +188,22 @@ body {
 /* MEDIA QUERIES */
 /*Para tablet*/
 @media screen and (max-width: 992px) {
+	.header-first {
+		text-align: center;
+	}
+	#header3 i {
+		opacity: 0.5;
+		margin-left: 30px;
+		font-size: 1.2em;
+	}
+
+	.menu ul li {
+		margin-right: 20px;
+	}
+	.menu ul li a {
+		font-size: 0.7em;
+	}
 	.content {
-		background-color: yellow;
 		flex-direction: column;
 	}
 	.article-main {
@@ -199,44 +213,54 @@ body {
 	}
 	.aside-main {
 		width: calc(100% - 30px);
-		height: 55px;
 		margin-bottom: 0px;
 		display: flex;
 		flex-direction: column;
 		justify-content: space-evenly;
 	}
 	.articulo-aside {
-		margin-bottom: 0px;
-		height: 18px;
+		margin-bottom: 10px;
 		width: calc (100% - 40px);
 	}
 }
 /*Para movil*/
 @media screen and (max-width: 550px) {
 	body {
-		padding: 30px 10px;
+		padding: 5px 10px;
 	}
 	.container {
 		height: calc(100vh - 62px);
-		margin-bottom: 30px;
+		margin-bottom: 10px;
 	}
 	.header-main {
 		padding: 30px;
-		margin-bottom: 30px;
+		margin-bottom: 0px;
 	}
 	.header-first {
-		height: 30px;
-		padding: 30px;
-		margin-bottom: 15px;
+		height: 80px;
+		padding: 10px;
+		margin-bottom: 45px;
 	}
 	#header1,
 	#header3 {
-		width: 15%;
+		width: 25%;
 		height: 30px;
 	}
 	#header2 {
 		width: 50%;
 		height: 30px;
+	}
+	.menu ul {
+		flex-direction: column;
+	}
+	#header3 {
+		flex-direction: column;
+	}
+	#header3 i {
+		opacity: 0.5;
+		margin-left: 50px;
+		font-size: 1em;
+		margin-bottom: 10px;
 	}
 	.header-second {
 		height: 30px;
@@ -244,27 +268,27 @@ body {
 		width: calc (100% - 60px);
 	}
 	.imagen {
-		height: 30px;
 	}
 	.content {
-		padding: 30px;
-		margin-bottom: 30px;
+		padding: 10px;
 	}
 	.article-main {
-		padding: 30px;
+		padding: 10px;
 		width: 100%;
+		margin-bottom: 10px;
 	}
 	.articulos {
 		width: 100%;
+		flex-wrap: nowrap;
+		flex-direction: column;
 		justify-content: space-between;
 	}
 	.articulo {
-		height: 30px;
-		width: 45%;
-		margin-bottom: 30px;
+		width: 100%;
+		margin-bottom: 10px;
 	}
 	.articulo-base {
-		height: 30px;
+		height: 15px;
 	}
 	.article-main {
 		padding: 30px 30px;
@@ -273,17 +297,15 @@ body {
 	}
 	.aside-main {
 		width: calc(100% - 60px);
-		height: 75px;
 		padding: 30px;
 		justify-content: space-between;
 	}
 	.articulo-aside {
-		margin-bottom: 0px;
-		height: 30px;
+		margin-bottom: 10px;
 	}
 	.footer-main {
-		height: 30px;
-		padding: 30px;
+		height: 20px;
+		padding: 10px;
 		width: calc (100% - 60px);
 	}
 	.footer-main-central {
