@@ -101,15 +101,15 @@ body {
 	text-decoration: none;
 }
 #card1 {
-	background-image: url('/M2/E2/images/bici.jpg');
+	background-image: url(../images/bici.jpg);
 	background-size: cover;
 }
 #card2 {
-	background-image: url('/M2/E2/images/shoes.jpeg');
+	background-image: url(../images/shoes.jpeg);
 	background-size: cover;
 }
 #card3 {
-	background-image: url('/M2/E2/images/tshirt.jpg');
+	background-image: url(../images/tshirt.jpg);
 	background-size: cover;
 }
 .content {
