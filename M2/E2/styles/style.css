@@ -1,16 +1,14 @@
 body {
 	background: #c2c2c2;
-	padding: 20px 0;
 	font-family: 'Baloo Tamma 2', cursive;
-	margin-bottom: 60px;
-	height: 100%;
+	height: 100vh;
 }
 .container {
-	height: 100%;
-	width: 50%;
+	height: calc(100% - 60px);
+	width: 60%;
 	margin: auto;
-	position: relative;
-	padding-bottom: 60px;
+	margin-top: 1%;
+	margin-bottom: 0;
 }
 .header-main {
 	background: rgb(131, 58, 180);
@@ -20,7 +18,7 @@ body {
 		rgba(253, 29, 29, 1) 50%,
 		rgba(252, 176, 69, 1) 100%
 	);
-	height: 90px;
+	height: 14%;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
@@ -33,19 +31,22 @@ body {
 	width: 18%;
 }
 .logo a img {
+	height: 100%;
 	width: 100%;
 	opacity: 0.8;
 }
 .redes {
 	display: flex;
 	flex-direction: row;
+	height: 100%;
+	align-items: center;
 }
 .icono-red {
 	margin-left: 10px;
 }
 .nav-main {
 	background-color: #c2c2c2;
-	height: 80px;
+	height: 10%;
 	display: flex;
 }
 .nav-main ul {
@@ -65,10 +66,10 @@ body {
 .menu {
 	background-color: #808080;
 	width: 19.8%;
-	height: 40px;
+	height: 60%;
 }
 .cards {
-	height: 160px;
+	height: 20%;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
@@ -114,7 +115,7 @@ body {
 .content {
 	display: flex;
 	flex-direction: row;
-	height: auto;
+	height: 50%;
 }
 .aside-left {
 	background-color: #808080;
@@ -130,7 +131,7 @@ body {
 }
 .articulo {
 	width: 32%;
-	height: 250px;
+	height: 47%;
 	border: 1px solid black;
 	border-radius: 0px 0px 7px 7px;
 	display: flex;
@@ -162,22 +163,17 @@ body {
 	width: 20%;
 }
 .footer-main {
-	height: 60px;
+	height: 7%;
 	width: 100%;
-	position: absolute;
-	bottom: 0;
 }
 .footer-main-central {
 	background-color: #646464;
-	height: 60px;
+	height: 100%;
 	width: 100%;
-	position: absolute;
-	bottom: 0px;
-	right: 0px;
 	display: flex;
 	flex-direction: column;
-	justify-content: space-evenly;
 	align-items: center;
+	justify-content: center;
 	border-top: 1px solid #000;
 }
 .footer-main-central p {
