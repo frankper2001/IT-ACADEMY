@@ -1,16 +1,16 @@
 body {
 	background: #c2c2c2;
-	padding: 20px 0;
 }
 .container {
 	height: calc(100vh - 40px);
 	width: 50%;
 	margin: auto;
-	position: relative;
+	margin-top: 1%;
+	margin-bottom: 1%;
 }
 .header-main {
 	background-color: #646464;
-	height: 90px;
+	height: 10%;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
@@ -25,17 +25,20 @@ body {
 .redes {
 	display: flex;
 	flex-direction: row;
+	align-items: center;
+	height: 100%;
+	
 }
 .icono-red {
 	background-color: #c2c2c2;
 	border-radius: 20px;
-	height: 33px;
-	width: 33px;
+	height: 24px;
+	width: 24px;
 	margin-left: 10px;
 }
 .nav-main {
 	background-color: #c2c2c2;
-	height: 80px;
+	height: 6%;
 	display: flex;
 }
 .nav-main ul {
@@ -48,14 +51,14 @@ body {
 .menu {
 	background-color: #808080;
 	width: 19.8%;
-	height: 40px;
+	height: 50%;
 }
 .cards {
-	height: 160px;
+	height: 20%;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	margin-bottom: 20px;
+	margin-bottom: 15px;
 }
 .card {
 	background-color: #808080;
@@ -65,7 +68,8 @@ body {
 .content {
 	display: flex;
 	flex-direction: row;
-	height: calc(100% - 430px);
+	/* height: calc(100% - 430px); */
+	height: 54%;
 }
 .aside-left {
 	background-color: #808080;
@@ -80,15 +84,12 @@ body {
 	width: 20%;
 }
 .footer-main {
-	height: 60px;
+	height: 7%;
 	width: 100%;
-	margin-top: 20px;
+	margin-top: 3%;
 }
 .footer-main-central {
 	background-color: #646464;
-	height: 60px;
+	height: 100%;
 	width: 100%;
-	position: absolute;
-	bottom: 0px;
-	right: 0px;
 }
