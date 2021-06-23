@@ -3,12 +3,17 @@ body {
 	padding: 0;
 }
 .container {
-	height: calc(100vh - 42px);
-	width: 90%;
-	margin: auto;
+	/* height: calc(100vh - 42px);
+	
 	position: relative;
 	display: flex;
-	flex-direction: column;
+	flex-direction: column; */
+	margin: auto;
+	width: 90%;
+	display: grid;
+	height: 100vh;
+	grid-gap: 10px;
+	grid-template-columns: 1fr;
 }
 .header-main {
 	background-image: url('../images/cabecera2.jpg');
