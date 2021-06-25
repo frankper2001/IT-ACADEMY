@@ -21,8 +21,8 @@ body {
 	background-color: yellow;
 	box-shadow: inset -5px -5px 5px rgba(0, 0, 0, 0.6);
 	position: absolute;
-	animation: moveX 1.5s linear infinite alternate,
-		moveY 2s ease-in infinite alternate;
+	animation: moveX 2s linear infinite alternate,
+		moveY 1.4s ease-in infinite alternate;
 }
 
 @keyframes moveX {
